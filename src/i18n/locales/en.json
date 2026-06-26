@@ -1,0 +1,384 @@
+{
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "benefits": "Benefits",
+    "partners": "Partners",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Reinventing Solar Thermal",
+    "title": "Balancing Thermal Energy",
+    "titleHighlight": "for the Future",
+    "description": "Copa Solar US Inc is an American PropTech company based in Manhattan, New York, specializing in innovative thermal solar solutions engineered for integration into the built environment. Our absorber technology transforms buildings into sustainable energy powerhouses.",
+    "exploreSolutions": "Explore Solutions",
+    "partnerWithUs": "Partner With Us",
+    "stats": {
+      "peakPower": "W/m² Peak Power",
+      "countries": "Countries",
+      "annualGrowth": "Annual Growth"
+    },
+    "floatingBadge": {
+      "title": "+Energy Facade",
+      "subtitle": "The thermal energy facade by Copa Solar US Inc"
+    }
+  },
+  "about": {
+    "label": "About Copa Solar US Inc",
+    "title": "Reinventing Solar Thermal for the Built Environment",
+    "description1": "Founded in 2022, Copa Solar US Inc is a lean PropTech Hardware company based in Manhattan, New York, that designs energy balancing products using innovative thermal solar absorbers. Our patented technology uses high-temperature adhesive developed with tesa®, enabling universal, non-penetrative mounting on any surface.",
+    "description2": "We operate with a partner-led execution model, where engineering, sales, installation, and service are performed by specialized regional partners. This enables rapid deployment across 13+ countries with local compliance and minimal logistics overhead.",
+    "checklist": {
+      "item1": "Partner-led execution in 13+ countries",
+      "item2": "Patented high-temperature adhesive technology",
+      "item3": "25-year warranty on all products",
+      "item4": "100% recyclable materials"
+    },
+    "features": {
+      "manufacturing": {
+        "title": "German Contract Manufacturing",
+        "description": "High-quality absorbers manufactured in Germany with just-in-time production and delivery."
+      },
+      "iso": {
+        "title": "ISO Certified",
+        "description": "ISO 9001 certified with ISO 14001 in progress. EPD certified for environmental transparency."
+      },
+      "carbon": {
+        "title": "Carbon Neutral Production",
+        "description": "100% fossil-free energy production with approved Environmental Product Declaration."
+      }
+    }
+  },
+  "products": {
+    "label": "Our Products",
+    "title": "Products & Applications Based on the Copa Solar Absorber",
+    "description": "All products are deployed through trained regional partners, supported remotely by Copa Solar US Inc's engineering and design team.",
+    "learnMore": "Learn More",
+    "techSheet": "Tech Sheet",
+    "items": {
+      "energyFacade": {
+        "name": "+Energy Facade",
+        "subtitle": "With Cosentino & SFS",
+        "description": "A building-integrated thermal façade system combining Copa Solar absorber, Cosentino Dekton® slabs, and SFS façade fastening systems.",
+        "specs": {
+          "spec1": "Thermal peak output: 1,400 W/m²",
+          "spec2": "Radiative cooling: 200 W/m²",
+          "spec3": "Annual yield: 1,480 kWh/m²",
+          "spec4": "60-year design life (Dekton)"
+        }
+      },
+      "energyWall": {
+        "name": "+Energy Wall",
+        "subtitle": "With Cosentino Group",
+        "description": "Revolutionary indoor climate control integrated into premium Dekton® architectural surfaces. Silent radiant heating and cooling with zero moving parts.",
+        "specs": {
+          "spec1": "960 W/m² radiant heating capacity",
+          "spec2": "Heating & cooling dual functionality",
+          "spec3": "0 dB silent operation",
+          "spec4": "25-year warranty with Dekton® 60-year design life"
+        }
+      },
+      "pvtPanels": {
+        "name": "PVT Panels",
+        "subtitle": "Made in Germany & Assembled in USA",
+        "description": "Solar panel combining photovoltaic and thermal energy production. Excess heat is led away to optimize PV efficiency while thermal energy is captured for various applications.",
+        "specs": {
+          "spec1": "Electrical output: 425-445 Wp (21-22% efficiency)",
+          "spec2": "Thermal peak: 2,750 Wth/panel (1,430 Wth/m²)",
+          "spec3": "Operating range: -40°C to +85°C",
+          "spec4": "Dimensions: 1762 × 1134 × 30 mm (2.0 m²)"
+        }
+      },
+      "pvtDistrictHeating": {
+        "name": "PVT District Heating",
+        "subtitle": "GeoSolar Solutions",
+        "description": "Solar thermal and geosolar solutions for district heating networks, replacing fossil fuels while preserving existing infrastructure.",
+        "specs": {
+          "spec1": "Borehole temp recovery: -7°C to +4°C",
+          "spec2": "20-25% reduced GSHP electric bill",
+          "spec3": "0.5-0.7 COP improvement",
+          "spec4": "12.3+ tonnes CO₂ reduction/year"
+        }
+      },
+      "repvwer": {
+        "name": "RePvWer",
+        "subtitle": "Retrofit PV → PVT",
+        "description": "Aluminium pipe-and-plate construction that converts existing PV installations into high-performance PVT systems without structural changes.",
+        "specs": {
+          "spec1": "Peak thermal power: 1,200-1,400 W/m²",
+          "spec2": "Annual output up to 1,461 kWh/m²",
+          "spec3": "No structural changes needed",
+          "spec4": "Boosts electrical output via cooling"
+        }
+      },
+      "energyTerrace": {
+        "name": "+Energy Terrace",
+        "subtitle": "With Cosentino",
+        "description": "A terrace-based thermal system providing summer energy harvesting for DHW and storage, and winter heating for snow melt.",
+        "specs": {
+          "spec1": "Summer energy harvesting",
+          "spec2": "Winter snow melt heating",
+          "spec3": "Extreme durability",
+          "spec4": "Adhesive mounting method"
+        }
+      },
+      "upmBiopura": {
+        "name": "UPM BioPura Brine",
+        "subtitle": "General Agent for the US",
+        "description": "100% wood-based, fossil-free heat transfer fluid from UPM Biochemicals. Copa Solar US Inc is the exclusive general agent for UPM BioPura glycols in the United States.",
+        "specs": {
+          "spec1": "100% bio-based glycol content",
+          "spec2": "Up to 90% CO₂ reduction vs fossil",
+          "spec3": "FSC & PEFC certified wood source",
+          "spec4": "Drop-in replacement for fossil glycols"
+        }
+      }
+    }
+  },
+  "benefits": {
+    "label": "Why Copa Solar US Inc",
+    "title": "Sustainable Energy Solutions with Maximum Efficiency",
+    "description": "Our state-of-the-art solar energy facade seamlessly integrates with intelligent energy management, thermal storage, and heat pumps to maximize efficiency while eliminating CO₂ emissions.",
+    "stats": {
+      "annualProduction": "Annual Energy Production",
+      "hotWaterReduction": "Hot Water Cost Reduction",
+      "heatingReduction": "Heating Cost Reduction",
+      "averageRoi": "Average ROI"
+    },
+    "items": {
+      "peakPower": {
+        "title": "1,400 W/m² Peak Power",
+        "description": "Industry-leading thermal peak output for maximum energy harvesting from facades and surfaces."
+      },
+      "radiativeCooling": {
+        "title": "200 W/m² Radiative Cooling",
+        "description": "Passive cooling capabilities reduce building cooling loads and indoor temperatures."
+      },
+      "heatingCooling": {
+        "title": "Heating, Cooling & Hot Water",
+        "description": "Versatile system provides heating, cooling, and domestic hot water from a single installation."
+      },
+      "silentOperation": {
+        "title": "Silent Operation",
+        "description": "No moving parts means completely silent energy production with minimal maintenance."
+      },
+      "recyclable": {
+        "title": "100% Recyclable",
+        "description": "Sustainable materials that can be fully recycled at end of life, supporting circular economy."
+      },
+      "warranty": {
+        "title": "25-Year Warranty",
+        "description": "Long-term performance guaranteed with comprehensive warranty coverage."
+      },
+      "energyReduction": {
+        "title": ">80% Energy Reduction",
+        "description": "Dramatically reduce energy consumption and operational costs for building owners."
+      },
+      "producedEurope": {
+        "title": "Produced in Europe",
+        "description": "German manufacturing with ISO certifications ensures highest quality standards."
+      }
+    }
+  },
+  "contact": {
+    "label": "Get In Touch",
+    "title": "Ready to Transform Your Building's Energy?",
+    "description": "Whether you're a property developer, HVAC partner, or facade contractor, we'd love to discuss how Copa Solar US Inc can help you deliver sustainable energy solutions to your projects.",
+    "visitWebsite": "Visit copasolar.com",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project or inquiry...",
+      "submit": "Send Message",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for your interest. We'll get back to you shortly."
+    },
+    "locations": {
+      "usa": "USA (HQ)"
+    }
+  },
+  "footer": {
+    "description": "Balancing thermal energy by reinventing solar thermal. Copa Solar US Inc delivers sustainable energy solutions for the built environment.",
+    "products": "Products",
+    "company": "Company",
+    "resources": "Resources",
+    "links": {
+      "aboutUs": "About Us",
+      "partners": "Partners",
+      "careers": "Careers",
+      "contact": "Contact",
+      "caseStudies": "Case Studies",
+      "downloads": "Downloads",
+      "epdCertifications": "EPD & Certifications",
+      "partnerPortal": "Partner Portal"
+    },
+    "copyright": "© {{year}} Copa Solar US Inc. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "caseStudies": {
+    "label": "Case Studies",
+    "title": "Results with Copa Solar US Inc",
+    "description": "Explore how our thermal energy solutions have delivered measurable results for property owners, district heating systems, and sustainable building projects.",
+    "backToHome": "Back to Home",
+    "background": "Background",
+    "setup": "Setup",
+    "results": "Results"
+  },
+  "epd": {
+    "label": "Environmental Transparency",
+    "title": "Environmental Product Declaration",
+    "description": "Third-party verified EPD in accordance with EN 15804+A2 & ISO 14025/ISO 21930, providing transparent environmental impact data for our Retrofit Thermal Absorber.",
+    "productName": "Retrofit Thermal Absorber",
+    "manufacturer": "Manufacturer",
+    "declaredUnit": "Declared Unit",
+    "productionLocation": "Production Location",
+    "referenceStandard": "Reference Standard",
+    "scope": "Scope",
+    "scopeValue": "Cradle to gate (C1-C4, D)",
+    "verification": "Verification",
+    "verificationValue": "Third-party verified",
+    "downloadEpd": "Download EPD",
+    "impactSummary": "Environmental Impact Summary",
+    "gwpLabel": "GWP-fossil A1-A3",
+    "gwpDescription": "Global Warming Potential",
+    "secondaryLabel": "Secondary Materials",
+    "secondaryDescription": "Material outputs recyclable",
+    "validLabel": "Valid Until",
+    "validDescription": "5-year certification",
+    "circularEconomy": "Circular Economy",
+    "circularDescription": "Our thermal absorber achieves 122% secondary material output, meaning more recyclable material is produced than consumed. With 107 kWh total energy use per m² and low carbon footprint, Copa Solar US Inc products lead the industry in sustainable building solutions.",
+    "certificationsTitle": "Certifications & Quality Management",
+    "certificationsDescription": "Copa Solar US Inc maintains the highest standards through internationally recognized certifications.",
+    "certification": "Certification",
+    "qualityManagement": "Quality Management System",
+    "certifiedCompany": "Certified Company",
+    "certifiedSince": "Certified Since",
+    "certifiedBy": "Certified by A3CERT"
+  },
+  "memberships": {
+    "label": "Industry Networks",
+    "title": "Memberships & Affiliations",
+    "description": "Copa Solar US Inc is an active member of leading industry organizations driving the future of sustainable heating and cooling technology.",
+    "visitWebsite": "Visit Website",
+    "shcDescription": "Team Sweden initiative promoting Swedish sustainable heating and cooling solutions globally through export partnerships and international collaboration.",
+    "gdhcDescription": "European network advancing 5th Generation District Heating and Cooling technology with ultra-low temperatures and bidirectional energy flows.",
+    "businessSwedenDescription": "Business Sweden's New York office plays a key role in Copa Solar US Inc's business modeling and market entry strategy. As Sweden's official trade and investment council, Business Sweden provides strategic advisory, market intelligence, and networking support that connects Copa Solar's Swedish innovation with North American market opportunities, accelerating commercialization and partnership development across the United States."
+  },
+  "partners": {
+    "label": "Our Partners",
+    "title": "North American Partnerships & Full Support Model",
+    "description": "Copa Solar US Inc collaborates with world-class partners to deliver innovative thermal solutions across North America while maintaining the highest quality standards.",
+    "visitWebsite": "Visit website",
+    "items": {
+      "cosentino": {
+        "role": "Global façade & flooring distribution",
+        "description": "Global family-owned Spanish company that manufactures and distributes innovative, sustainable surface materials including Dekton® ultra-compact surfaces."
+      },
+      "sfs": {
+        "role": "Fastening systems & engineering",
+        "description": "Specialist for fastening solutions in the building envelope with 30+ years of experience in modern fastening systems for construction."
+      },
+      "tesa": {
+        "role": "High-temperature adhesive technology",
+        "description": "Co-developed Copa Solar's patented high-temperature double-sided adhesive tape enabling universal, non-penetrative mounting."
+      },
+      "lawrenceLowy": {
+        "role": "Agent — NY/NJ Commercial Heating",
+        "description": "Lawrence Lowy Associates is the leading New York/New Jersey specialist for commercial plumbing and heating solutions. With 75+ years of experience since 1956, they provide engineers and contractors with expert product knowledge, system design, and installation support for high-efficiency boilers, water heaters, heat exchangers, and heat trace solutions."
+      },
+      "heliene": {
+        "role": "US - PV Module Manufacturing",
+        "description": "Leading American solar PV manufacturer with 1.3 GW capacity across Minnesota facilities, providing high-domestic-content modules for US-assembled PVT solutions meeting IRA Domestic Content requirements."
+      },
+      "lavada": {
+        "role": "Partner — NYC Facade & Building Envelope",
+        "description": "LAVADA, Inc. is a New York City-based contracting firm specializing in facade systems and building envelope solutions for commercial, institutional, and residential projects. Their portfolio includes landmark projects such as Delta at LaGuardia Airport, Brooklyn Health Center, and 1047 Commonwealth Ave."
+      },
+      "brightcoreEnergy": {
+        "role": "Partner — Large Scale Geothermal Solutions",
+        "description": "Brightcore Energy delivers award-winning geothermal, solar, and energy efficiency solutions to commercial, institutional, and government clients. Their turn-key EDGE™ and UrbanGeo® geothermal offerings provide the most impactful building decarbonization solutions for large-scale applications across higher education, healthcare, Fortune 500, and government sectors."
+      },
+      "copaSolarAb": {
+        "role": "Sweden - R&D & Manufacturing HQ",
+        "description": "Copa Solar AB is the Swedish technology headquarters, leading R&D, product development, and European manufacturing of thermal absorber technology."
+      }
+    },
+    "becomePartner": {
+      "title": "Become a Copa Solar US Inc Partner",
+      "description": "Every partner receives comprehensive support to successfully deploy Copa Solar solutions across North America."
+    },
+    "benefits": {
+      "localExpertise": {
+        "title": "Local Expertise",
+        "description": "Partners bring knowledge of local building codes, HVAC environments, and construction methods."
+      },
+      "fullSupport": {
+        "title": "Full Support",
+        "description": "Engineering support, installation training, energy modeling, and sales enablement included."
+      },
+      "rapidScaling": {
+        "title": "Rapid Scaling",
+        "description": "Partner-led model enables rapid deployment across North America with minimal overhead."
+      },
+      "innovationAccess": {
+        "title": "Innovation Access",
+        "description": "Partners get access to Copa Solar's patented technologies and continuous product development."
+      }
+    }
+  },
+  "globalGoals": {
+    "label": "Our Impact",
+    "title": "Contributing to the UN Global Goals",
+    "description": "Copa Solar US Inc's innovative thermal solutions directly support the United Nations Sustainable Development Goals, driving meaningful progress toward a sustainable future.",
+    "learnMore": "Learn more about the UN Sustainable Development Goals",
+    "sdg7": {
+      "name": "Affordable and Clean Energy",
+      "impact": "Our solar thermal absorbers generate clean renewable heat, reducing dependency on fossil fuels and making sustainable energy accessible for buildings worldwide."
+    },
+    "sdg8": {
+      "name": "Decent Work and Economic Growth",
+      "impact": "Copa Solar US Inc creates green jobs across 13+ countries through our partner network, supporting sustainable economic growth in the clean energy sector."
+    },
+    "sdg9": {
+      "name": "Industry, Innovation and Infrastructure",
+      "impact": "Our patented PVT technology represents breakthrough innovation in building-integrated renewables, transforming construction industry standards."
+    },
+    "sdg10": {
+      "name": "Reduced Inequalities",
+      "impact": "By enabling affordable solar thermal solutions, we help reduce energy poverty and provide equal access to clean heating and cooling globally."
+    },
+    "sdg11": {
+      "name": "Sustainable Cities and Communities",
+      "impact": "Our façade-integrated systems help cities achieve net-zero targets, creating sustainable buildings and communities for future generations."
+    },
+    "sdg12": {
+      "name": "Responsible Consumption and Production",
+      "impact": "Our EPD-certified products promote circular economy principles, with 35+ year lifespans and recyclable aluminum construction."
+    },
+    "sdg17": {
+      "name": "Partnerships for the Goals",
+      "impact": "Through strategic partnerships with Cosentino, SFS, tesa®, and global distributors, we accelerate collective action toward climate goals."
+    }
+  },
+  "nycCompliance": {
+    "label": "NYC Building Compliance",
+    "title": "Solutions for New York City Building Owners",
+    "description": "New York City has the most demanding building regulations in the United States. Copa Solar's +Energy Façade is the only solution that addresses façade safety, emissions reduction, and energy code compliance in a single integrated system.",
+    "problemTitle": "The NYC Building Owner's Triple Challenge",
+    "problemDescription": "New York City building owners face an unprecedented convergence of regulations: aging façades triggering costly LL11 repairs, aggressive LL97 emissions caps with $268/ton annual penalties, and strict ASHRAE 90.1 energy requirements for any renovation. Standard approaches address each problem separately — tripling costs and timelines. No existing solution tackles all three until now.",
+    "challenge": "The Challenge",
+    "copaSolution": "The Copa Solar Solution",
+    "ctaTitle": "One System. Triple Compliance.",
+    "ctaDescription": "Copa Solar's +Energy Façade is the only building-integrated solution that simultaneously achieves LL11 Safe classification, closes up to 60% of the LL97 emissions gap, and meets ASHRAE 90.1-2019 building energy requirements — transforming regulatory burden into long-term asset value."
+  }
+}

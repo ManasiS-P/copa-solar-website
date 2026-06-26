@@ -1,0 +1,373 @@
+{
+  "nav": {
+    "about": "Nosotros",
+    "products": "Productos",
+    "benefits": "Beneficios",
+    "partners": "Socios",
+    "contact": "Contacto",
+    "getStarted": "Empezar",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Reinventando la energía solar térmica",
+    "title": "Equilibrando la energía térmica",
+    "titleHighlight": "para el futuro",
+    "description": "Copa Solar US Inc es una empresa americana de PropTech con sede en Manhattan, Nueva York, especializada en soluciones solares térmicas innovadoras diseñadas para integrarse en el entorno construido. Nuestra tecnología de absorbedor transforma edificios en centrales de energía sostenible.",
+    "exploreSolutions": "Explorar soluciones",
+    "partnerWithUs": "Colaborar con nosotros",
+    "stats": {
+      "peakPower": "W/m² potencia máxima",
+      "countries": "Países",
+      "annualGrowth": "Crecimiento anual"
+    },
+    "floatingBadge": {
+      "title": "+Energy Facade",
+      "subtitle": "La fachada de energía térmica de Copa Solar US Inc"
+    }
+  },
+  "about": {
+    "label": "Sobre Copa Solar US Inc",
+    "title": "Reinventando la energía solar térmica para edificios",
+    "description1": "Fundada en 2022, Copa Solar US Inc es una empresa ágil de hardware PropTech con sede en Manhattan, Nueva York, que diseña productos de equilibrio energético utilizando absorbedores solares térmicos innovadores. Nuestra tecnología patentada utiliza adhesivo de alta temperatura desarrollado con tesa®, permitiendo montaje universal y no penetrante en cualquier superficie.",
+    "description2": "Operamos con un modelo de ejecución liderado por socios, donde ingeniería, ventas, instalación y servicio son realizados por socios regionales especializados. Esto permite un despliegue rápido en más de 13 países con cumplimiento local y mínima carga logística.",
+    "checklist": {
+      "item1": "Ejecución liderada por socios en 13+ países",
+      "item2": "Tecnología adhesiva de alta temperatura patentada",
+      "item3": "Garantía de 25 años en todos los productos",
+      "item4": "Materiales 100% reciclables"
+    },
+    "features": {
+      "manufacturing": {
+        "title": "Fabricación por contrato en Alemania",
+        "description": "Absorbedores de alta calidad fabricados en Alemania con producción y entrega justo a tiempo."
+      },
+      "iso": {
+        "title": "Certificado ISO",
+        "description": "Certificado ISO 9001 con ISO 14001 en progreso. Certificado EPD para transparencia ambiental."
+      },
+      "carbon": {
+        "title": "Producción neutra en carbono",
+        "description": "Producción de energía 100% libre de fósiles con Declaración Ambiental de Producto aprobada."
+      }
+    }
+  },
+  "products": {
+    "label": "Nuestros productos",
+    "title": "Productos y aplicaciones basados en el absorbedor Copa Solar",
+    "description": "Todos los productos se despliegan a través de socios regionales capacitados, con soporte remoto del equipo de ingeniería y diseño de Copa Solar US Inc.",
+    "learnMore": "Más información",
+    "techSheet": "Ficha técnica",
+    "items": {
+      "energyFacade": {
+        "name": "+Energy Facade",
+        "subtitle": "Con Cosentino y SFS",
+        "description": "Un sistema de fachada térmica integrada que combina absorbedor Copa Solar, losas Cosentino Dekton® y sistemas de fijación de fachadas SFS.",
+        "specs": {
+          "spec1": "Potencia térmica máxima: 1.400 W/m²",
+          "spec2": "Enfriamiento radiativo: 200 W/m²",
+          "spec3": "Rendimiento anual: 1.480 kWh/m²",
+          "spec4": "Vida útil de diseño: 60 años (Dekton)"
+        }
+      },
+      "energyWall": {
+        "name": "+Energy Wall",
+        "subtitle": "Con Cosentino Group",
+        "description": "Control climático interior revolucionario integrado en superficies arquitectónicas Dekton® premium. Calefacción y refrigeración radiante silenciosa sin partes móviles.",
+        "specs": {
+          "spec1": "Capacidad de calefacción radiante de 960 W/m²",
+          "spec2": "Doble funcionalidad de calefacción y refrigeración",
+          "spec3": "Operación silenciosa de 0 dB",
+          "spec4": "Garantía de 25 años con vida útil Dekton® de 60 años"
+        }
+      },
+      "pvtPanels": {
+        "name": "Paneles PVT",
+        "subtitle": "Fabricados en Alemania & Ensamblados en EE.UU.",
+        "description": "Panel solar que combina producción de energía fotovoltaica y térmica. El exceso de calor se extrae para optimizar la eficiencia PV mientras la energía térmica se captura para diversas aplicaciones.",
+        "specs": {
+          "spec1": "Potencia eléctrica: 425-445 Wp (21-22% eficiencia)",
+          "spec2": "Pico térmico: 2.750 Wth/panel (1.430 Wth/m²)",
+          "spec3": "Rango operativo: -40°C a +85°C",
+          "spec4": "Dimensiones: 1762 × 1134 × 30 mm (2,0 m²)"
+        }
+      },
+      "pvtDistrictHeating": {
+        "name": "PVT Calefacción de distrito",
+        "subtitle": "Soluciones GeoSolar",
+        "description": "Soluciones solares térmicas y geosolares para redes de calefacción de distrito, reemplazando combustibles fósiles mientras se preserva la infraestructura existente.",
+        "specs": {
+          "spec1": "Recuperación temp. pozo: -7°C a +4°C",
+          "spec2": "20-25% reducción factura eléctrica GSHP",
+          "spec3": "Mejora COP 0,5-0,7",
+          "spec4": "12,3+ toneladas reducción CO₂/año"
+        }
+      },
+      "repvwer": {
+        "name": "RePvWer",
+        "subtitle": "Retrofit PV → PVT",
+        "description": "Construcción de tubo y placa de aluminio que convierte instalaciones PV existentes en sistemas PVT de alto rendimiento sin cambios estructurales.",
+        "specs": {
+          "spec1": "Potencia térmica máxima: 1.200-1.400 W/m²",
+          "spec2": "Producción anual hasta 1.461 kWh/m²",
+          "spec3": "Sin cambios estructurales necesarios",
+          "spec4": "Aumenta producción eléctrica mediante enfriamiento"
+        }
+      },
+      "energyTerrace": {
+        "name": "+Energy Terrace",
+        "subtitle": "Con Cosentino",
+        "description": "Un sistema térmico basado en terrazas que proporciona captación de energía en verano para ACS y almacenamiento, y calefacción en invierno para derretir nieve.",
+        "specs": {
+          "spec1": "Captación de energía en verano",
+          "spec2": "Calefacción para derretir nieve en invierno",
+          "spec3": "Durabilidad extrema",
+          "spec4": "Método de montaje adhesivo"
+        }
+      },
+      "upmBiopura": {
+        "name": "UPM BioPura Brine",
+        "subtitle": "Agente general para EE.UU.",
+        "description": "Fluido de transferencia de calor 100% basado en madera, libre de fósiles de UPM Biochemicals. Copa Solar US Inc es el agente general exclusivo de glicoles UPM BioPura en Estados Unidos.",
+        "specs": {
+          "spec1": "Contenido de glicol 100% biobasado",
+          "spec2": "Hasta 90% reducción CO₂ vs fósil",
+          "spec3": "Fuente de madera certificada FSC y PEFC",
+          "spec4": "Reemplazo directo de glicoles fósiles"
+        }
+      }
+    }
+  },
+  "benefits": {
+    "label": "Por qué Copa Solar US Inc",
+    "title": "Soluciones de energía sostenible con máxima eficiencia",
+    "description": "Nuestra fachada de energía solar de última generación se integra perfectamente con gestión inteligente de energía, almacenamiento térmico y bombas de calor para maximizar la eficiencia eliminando emisiones de CO₂.",
+    "stats": {
+      "annualProduction": "Producción energética anual",
+      "hotWaterReduction": "Reducción coste agua caliente",
+      "heatingReduction": "Reducción coste calefacción",
+      "averageRoi": "ROI promedio"
+    },
+    "items": {
+      "peakPower": {
+        "title": "1.400 W/m² potencia máxima",
+        "description": "Potencia térmica máxima líder en la industria para máxima captación de energía de fachadas y superficies."
+      },
+      "radiativeCooling": {
+        "title": "200 W/m² enfriamiento radiativo",
+        "description": "Capacidades de enfriamiento pasivo que reducen las cargas de refrigeración del edificio y las temperaturas interiores."
+      },
+      "heatingCooling": {
+        "title": "Calefacción, refrigeración y agua caliente",
+        "description": "Sistema versátil que proporciona calefacción, refrigeración y agua caliente sanitaria desde una sola instalación."
+      },
+      "silentOperation": {
+        "title": "Operación silenciosa",
+        "description": "Sin partes móviles significa producción de energía completamente silenciosa con mantenimiento mínimo."
+      },
+      "recyclable": {
+        "title": "100% reciclable",
+        "description": "Materiales sostenibles que pueden reciclarse completamente al final de su vida útil, apoyando la economía circular."
+      },
+      "warranty": {
+        "title": "Garantía de 25 años",
+        "description": "Rendimiento a largo plazo garantizado con cobertura de garantía integral."
+      },
+      "energyReduction": {
+        "title": ">80% reducción de energía",
+        "description": "Reduce drásticamente el consumo de energía y los costes operativos para propietarios de edificios."
+      },
+      "producedEurope": {
+        "title": "Producido en Europa",
+        "description": "Fabricación alemana con certificaciones ISO garantiza los más altos estándares de calidad."
+      }
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "¿Listo para transformar la energía de tu edificio?",
+    "description": "Ya sea que seas desarrollador inmobiliario, socio de HVAC o contratista de fachadas, nos encantaría discutir cómo Copa Solar US Inc puede ayudarte a ofrecer soluciones de energía sostenible a tus proyectos.",
+    "visitWebsite": "Visitar copasolar.com",
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "company": "Empresa",
+      "companyPlaceholder": "Nombre de tu empresa",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto o consulta...",
+      "submit": "Enviar mensaje",
+      "successTitle": "¡Mensaje enviado!",
+      "successMessage": "Gracias por tu interés. Te responderemos pronto."
+    },
+    "locations": {
+      "usa": "EE.UU. (Sede)"
+    }
+  },
+  "footer": {
+    "description": "Equilibrando la energía térmica reinventando la solar térmica. Copa Solar US Inc ofrece soluciones de energía sostenible para el entorno construido.",
+    "products": "Productos",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "links": {
+      "aboutUs": "Sobre nosotros",
+      "partners": "Socios",
+      "careers": "Carreras",
+      "contact": "Contacto",
+      "caseStudies": "Casos de estudio",
+      "downloads": "Descargas",
+      "epdCertifications": "EPD y Certificaciones",
+      "partnerPortal": "Portal de socios"
+    },
+    "copyright": "© {{year}} Copa Solar US Inc. Todos los derechos reservados.",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "cookiePolicy": "Política de cookies"
+  },
+  "caseStudies": {
+    "label": "Casos de estudio",
+    "title": "Resultados con Copa Solar US Inc",
+    "description": "Explora cómo nuestras soluciones de energía térmica han entregado resultados medibles para propietarios, sistemas de calefacción de distrito y proyectos de construcción sostenible.",
+    "backToHome": "Volver al inicio",
+    "background": "Contexto",
+    "setup": "Configuración",
+    "results": "Resultados"
+  },
+  "epd": {
+    "label": "Transparencia ambiental",
+    "title": "Declaración ambiental de producto",
+    "description": "EPD verificada por terceros de acuerdo con EN 15804+A2 & ISO 14025/ISO 21930, proporcionando datos transparentes de impacto ambiental para nuestro absorbedor térmico Retrofit.",
+    "productName": "Absorbedor térmico Retrofit",
+    "manufacturer": "Fabricante",
+    "declaredUnit": "Unidad declarada",
+    "productionLocation": "Ubicación de producción",
+    "referenceStandard": "Norma de referencia",
+    "scope": "Alcance",
+    "scopeValue": "De la cuna a la puerta (C1-C4, D)",
+    "verification": "Verificación",
+    "verificationValue": "Verificado por terceros",
+    "downloadEpd": "Descargar EPD",
+    "impactSummary": "Resumen de impacto ambiental",
+    "gwpLabel": "GWP-fósil A1-A3",
+    "gwpDescription": "Potencial de calentamiento global",
+    "secondaryLabel": "Materiales secundarios",
+    "secondaryDescription": "Salida de materiales reciclables",
+    "validLabel": "Válido hasta",
+    "validDescription": "Certificación de 5 años",
+    "circularEconomy": "Economía circular",
+    "circularDescription": "Nuestro absorbedor térmico logra un 122% de salida de material secundario, lo que significa que se produce más material reciclable del que se consume. Con 107 kWh de uso total de energía por m² y baja huella de carbono, los productos Copa Solar US Inc lideran la industria en soluciones de construcción sostenible.",
+    "certificationsTitle": "Certificaciones y gestión de calidad",
+    "certificationsDescription": "Copa Solar US Inc mantiene los más altos estándares a través de certificaciones reconocidas internacionalmente.",
+    "certification": "Certificación",
+    "qualityManagement": "Sistema de gestión de calidad",
+    "certifiedCompany": "Empresa certificada",
+    "certifiedSince": "Certificado desde",
+    "certifiedBy": "Certificado por A3CERT"
+  },
+  "memberships": {
+    "label": "Redes industriales",
+    "title": "Membresías y afiliaciones",
+    "description": "Copa Solar US Inc es miembro activo de organizaciones industriales líderes que impulsan el futuro de la tecnología de calefacción y refrigeración sostenible.",
+    "visitWebsite": "Visitar sitio web",
+    "shcDescription": "Iniciativa que promueve soluciones de calefacción y refrigeración sostenibles a nivel mundial a través de asociaciones de exportación y colaboración internacional.",
+    "gdhcDescription": "Red europea que impulsa la tecnología de calefacción y refrigeración de distrito de 5ª generación con temperaturas ultra bajas y flujos de energía bidireccionales.",
+    "businessSwedenDescription": "La oficina de Business Sweden en Nueva York desempeña un papel clave en el modelado de negocio y la estrategia de entrada al mercado de Copa Solar US Inc. Como consejo oficial de comercio e inversión de Suecia, Business Sweden proporciona asesoramiento estratégico, inteligencia de mercado y apoyo en networking que conecta la innovación sueca de Copa Solar con las oportunidades del mercado norteamericano, acelerando la comercialización y el desarrollo de alianzas en Estados Unidos."
+  },
+  "partners": {
+    "label": "Nuestros socios",
+    "title": "Asociaciones en Norteamérica y modelo de soporte completo",
+    "description": "Copa Solar US Inc colabora con socios de clase mundial para ofrecer soluciones térmicas innovadoras en toda Norteamérica mientras mantiene los más altos estándares de calidad.",
+    "visitWebsite": "Visitar sitio web",
+    "items": {
+      "cosentino": {
+        "role": "Distribución global de fachadas y suelos",
+        "description": "Empresa familiar española global que fabrica y distribuye materiales de superficie innovadores y sostenibles, incluyendo superficies ultracompactas Dekton®."
+      },
+      "sfs": {
+        "role": "Sistemas de fijación e ingeniería",
+        "description": "Especialista en soluciones de fijación para la envolvente del edificio con más de 30 años de experiencia en sistemas de fijación modernos para construcción."
+      },
+      "tesa": {
+        "role": "Tecnología adhesiva de alta temperatura",
+        "description": "Co-desarrollador de la cinta adhesiva de doble cara de alta temperatura patentada de Copa Solar que permite el montaje universal y no penetrante."
+      },
+      "lawrenceLowy": {
+        "role": "Agente — Calefacción Comercial NY/NJ",
+        "description": "Lawrence Lowy Associates es el especialista líder en soluciones de plomería y calefacción comercial en Nueva York/Nueva Jersey. Con más de 75 años de experiencia desde 1956, proporcionan a ingenieros y contratistas conocimiento experto de productos, diseño de sistemas y soporte de instalación para calderas de alta eficiencia, calentadores de agua, intercambiadores de calor y soluciones de rastreo de calor."
+      },
+      "heliene": {
+        "role": "EE.UU. - Fabricación de módulos PV",
+        "description": "Fabricante estadounidense líder de PV solar con capacidad de 1,3 GW en instalaciones de Minnesota, proporcionando módulos de alto contenido doméstico para soluciones PVT ensambladas en EE.UU."
+      },
+      "lavada": {
+        "role": "Socio — Fachadas y Envolvente NYC",
+        "description": "LAVADA, Inc. es una empresa contratista con sede en Nueva York, especializada en sistemas de fachadas y soluciones de envolvente de edificios para proyectos comerciales, institucionales y residenciales. Su portafolio incluye proyectos emblemáticos como Delta en el Aeropuerto LaGuardia, Brooklyn Health Center y 1047 Commonwealth Ave."
+      },
+      "brightcoreEnergy": {
+        "role": "Socio — Soluciones Geotérmicas a Gran Escala",
+        "description": "Brightcore Energy ofrece soluciones galardonadas de geotermia, solar y eficiencia energética para clientes comerciales, institucionales y gubernamentales. Sus ofertas geotérmicas llave en mano EDGE™ y UrbanGeo® proporcionan las soluciones de descarbonización de edificios más impactantes para aplicaciones a gran escala en educación superior, salud, Fortune 500 y sectores gubernamentales."
+      },
+      "copaSolarAb": {
+        "role": "Suecia - Sede de I+D y fabricación",
+        "description": "Copa Solar AB es la sede tecnológica sueca, liderando la I+D, desarrollo de productos y fabricación europea de la tecnología de absorbedor térmico."
+      }
+    },
+    "becomePartner": {
+      "title": "Conviértete en socio de Copa Solar US Inc",
+      "description": "Cada socio recibe soporte integral para implementar con éxito las soluciones Copa Solar en Norteamérica."
+    },
+    "benefits": {
+      "localExpertise": {
+        "title": "Experiencia local",
+        "description": "Los socios aportan conocimiento de los códigos de construcción locales, entornos HVAC y métodos de construcción."
+      },
+      "fullSupport": {
+        "title": "Soporte completo",
+        "description": "Soporte de ingeniería, capacitación en instalación, modelado energético y habilitación de ventas incluidos."
+      },
+      "rapidScaling": {
+        "title": "Escalado rápido",
+        "description": "El modelo liderado por socios permite la implementación rápida en toda Norteamérica con gastos generales mínimos."
+      },
+      "innovationAccess": {
+        "title": "Acceso a la innovación",
+        "description": "Los socios obtienen acceso a las tecnologías patentadas de Copa Solar y al desarrollo continuo de productos."
+      }
+    }
+  },
+  "globalGoals": {
+    "label": "Nuestro impacto",
+    "title": "Contribución a los objetivos globales de la ONU",
+    "description": "Las soluciones térmicas innovadoras de Copa Solar US Inc apoyan directamente los Objetivos de Desarrollo Sostenible de las Naciones Unidas, impulsando un progreso significativo hacia un futuro sostenible.",
+    "learnMore": "Más información sobre los Objetivos de Desarrollo Sostenible de la ONU",
+    "sdg7": {
+      "name": "Energía asequible y no contaminante",
+      "impact": "Nuestros absorbedores solares térmicos generan calor renovable limpio, reduciendo la dependencia de los combustibles fósiles y haciendo accesible la energía sostenible para edificios en todo el mundo."
+    },
+    "sdg8": {
+      "name": "Trabajo decente y crecimiento económico",
+      "impact": "Copa Solar US Inc crea empleos verdes en más de 13 países a través de nuestra red de socios, apoyando el crecimiento económico sostenible en el sector de energía limpia."
+    },
+    "sdg9": {
+      "name": "Industria, innovación e infraestructura",
+      "impact": "Nuestra tecnología PVT patentada representa una innovación revolucionaria en energías renovables integradas en edificios, transformando los estándares de la industria de la construcción."
+    },
+    "sdg10": {
+      "name": "Reducción de las desigualdades",
+      "impact": "Al permitir soluciones solares térmicas asequibles, ayudamos a reducir la pobreza energética y proporcionamos acceso igualitario a calefacción y refrigeración limpias a nivel global."
+    },
+    "sdg11": {
+      "name": "Ciudades y comunidades sostenibles",
+      "impact": "Nuestros sistemas integrados en fachadas ayudan a las ciudades a alcanzar objetivos de cero neto, creando edificios y comunidades sostenibles para las generaciones futuras."
+    },
+    "sdg12": {
+      "name": "Producción y consumo responsables",
+      "impact": "Nuestros productos certificados EPD promueven principios de economía circular, con más de 35 años de vida útil y construcción de aluminio reciclable."
+    },
+    "sdg17": {
+      "name": "Alianzas para lograr los objetivos",
+      "impact": "A través de alianzas estratégicas con Cosentino, SFS, tesa® y distribuidores globales, aceleramos la acción colectiva hacia los objetivos climáticos."
+    }
+  }
+}
