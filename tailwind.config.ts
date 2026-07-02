@@ -1,8 +1,9 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}", "./src/styles/**/*.css"],
   prefix: "",
   theme: {
     container: {
@@ -14,8 +15,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Outfit', 'system-ui', 'sans-serif'],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Playfair Display", "Georgia", "serif"],
+        playfair: ["Playfair Display", "Georgia", "serif"],
+        outfit: ["Outfit", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -43,6 +46,15 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        // ADDED: The missing 'highlight' color from Prod_1
+        highlight: {
+          DEFAULT: "hsl(var(--highlight))",
+          foreground: "hsl(var(--highlight-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -61,7 +73,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Copa Solar custom colors
+        // Copa Solar custom colors (Kept from your original)
         solar: {
           orange: "hsl(var(--solar-orange))",
           amber: "hsl(var(--solar-amber))",
@@ -89,6 +101,11 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        // MERGED: Added 'fade-up' from Prod_1 while keeping your existing keyframes
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(30px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
         "fade-in": {
           from: { opacity: "0", transform: "translateY(20px)" },
           to: { opacity: "1", transform: "translateY(0)" },
@@ -113,6 +130,8 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        // MERGED: Added 'fade-up' animation
+        "fade-up": "fade-up 0.6s ease-out forwards",
         "fade-in": "fade-in 0.6s ease-out forwards",
         "fade-in-left": "fade-in-left 0.6s ease-out forwards",
         "fade-in-right": "fade-in-right 0.6s ease-out forwards",
@@ -121,5 +140,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;

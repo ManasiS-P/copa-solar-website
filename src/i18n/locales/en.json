@@ -380,5 +380,292 @@
     "copaSolution": "The Copa Solar Solution",
     "ctaTitle": "One System. Triple Compliance.",
     "ctaDescription": "Copa Solar's +Energy Façade is the only building-integrated solution that simultaneously achieves LL11 Safe classification, closes up to 60% of the LL97 emissions gap, and meets ASHRAE 90.1-2019 building energy requirements — transforming regulatory burden into long-term asset value."
+  },
+  "terrace": {
+    "nav": {
+      "solutions": "Solutions",
+      "specifications": "Specifications",
+      "caseStudy": "Case Study",
+      "contact": "Contact"
+    },
+    "hero": {
+      "company": "Copa Solar AB",
+      "title": "+Energy Terrace",
+      "description": "Revolutionary thermal energy system that transforms outdoor terraces into sustainable energy producers. Harvest solar energy while extending your outdoor season with heated surfaces.",
+      "peakPower": "W/m² Peak Power",
+      "fossilFree": "Fossil Free",
+      "warranty": "Year Warranty"
+    },
+    "introduction": {
+      "label": "Sustainable Innovation",
+      "title": "Sustainable Energy Solutions with",
+      "titleHighlight": "+Energy Terrace",
+      "description": "Our integrated green energy systems combine solar power, heat pumps, and geothermal storage to deliver sustainable heating, cooling, and ventilation with maximum efficiency. The +Energy Terrace is a revolutionary solution that generates thermal energy while providing heated outdoor surfaces for year-round comfort.",
+      "description2": "Completely silent and capable of producing energy even without direct sunlight conditions, it ensures a continuous and optimized energy supply. This not only optimizes energy performance and sustainability but also enhances property value and supports certifications such as BREEAM, LEED and DGNB.",
+      "features": {
+        "dualEnergy": {
+          "title": "Dual Energy Harvest",
+          "description": "Captures solar thermal energy while providing comfortable heated outdoor surfaces"
+        },
+        "extendedSeason": {
+          "title": "Extended Season",
+          "description": "Enjoy your terrace year-round with integrated heating from renewable sources"
+        },
+        "sustainable": {
+          "title": "100% Sustainable",
+          "description": "Zero CO₂ emissions with fully recyclable materials and approved EPD & LCA"
+        },
+        "silent": {
+          "title": "Silent Operation",
+          "description": "No moving parts ensures completely silent energy production"
+        }
+      }
+    },
+    "applications": {
+      "label": "Applications",
+      "title": "Versatile Solutions",
+      "description": "Energy from +Energy Terrace may be used in geothermal applications such as heating, cooling and balancing across various property types.",
+      "types": {
+        "residential": {
+          "title": "Residential",
+          "description": "Private terraces and outdoor living spaces"
+        },
+        "commercial": {
+          "title": "Commercial Real Estate",
+          "description": "Office buildings and mixed-use developments"
+        },
+        "hospitality": {
+          "title": "Hospitality",
+          "description": "Hotels, restaurants, and outdoor dining areas"
+        },
+        "community": {
+          "title": "Community Buildings",
+          "description": "Public spaces and municipal facilities"
+        },
+        "parking": {
+          "title": "Parking Areas",
+          "description": "Covered parking and pedestrian zones"
+        },
+        "district": {
+          "title": "District Solutions",
+          "description": "Heating & cooling networks"
+        }
+      },
+      "economy": {
+        "label": "Economy",
+        "title": "Cost Reduction",
+        "description": "Significant operational savings through reduced energy consumption and eliminated CO₂ emissions.",
+        "hotWater": {
+          "title": "Hot Water",
+          "description": "Reduced cost for domestic hot water"
+        },
+        "heating": {
+          "title": "Heating",
+          "description": "Reduced heating expenses"
+        },
+        "cooling": {
+          "title": "Cooling",
+          "description": "Reduced cooling costs"
+        },
+        "coolingDemand": {
+          "title": "Cooling Demand",
+          "description": "Reduced need for active cooling"
+        }
+      }
+    },
+    "specs": {
+      "label": "Technical Specifications",
+      "title": "Performance & Facts",
+      "description": "Industry-leading specifications backed by Environmental Product Declaration (EPD) and Life Cycle Assessment (LCA) certifications.",
+      "thermalPower": {
+        "label": "Installed Thermal Peak Power",
+        "description": "Maximum thermal output under optimal conditions"
+      },
+      "radiativeCooling": {
+        "label": "Radiative Cooling",
+        "description": "Passive cooling capacity"
+      },
+      "annualProduction": {
+        "label": "Annual Energy Production",
+        "description": "Estimated output in Stockholm climate"
+      },
+      "warranty": {
+        "label": "Product Warranty",
+        "description": "Full performance guarantee"
+      },
+      "recyclable": {
+        "label": "Recyclable Materials",
+        "description": "No rare earth metals used"
+      },
+      "produced": {
+        "label": "Produced in Europe",
+        "description": "German contract manufacturing"
+      },
+      "absorber": {
+        "title": "Solar Absorber Core",
+        "description": "Stainless steel pipes bonded to the underside of each stone paver form the heart of the +Energy Terrace system. Solar radiation heats the stone surface, and this thermal energy is transferred through the pipes to your building's heat pump.",
+        "badge": "316L Stainless Steel Absorber",
+        "features": [
+          "100% Fossil Free Energy",
+          "Heating, Cooling & Hot Water",
+          "No Moving Parts",
+          "Silent Energy Production",
+          "Approved EPD & LCA",
+          "No Rare Earth Metals",
+          "Maintenance Free",
+          "ISO 9001 Certified"
+        ]
+      }
+    },
+    "epd": {
+      "label": "Environmental Impact",
+      "title": "Environmental Product Declaration",
+      "description": "Our commitment to sustainability is verified through comprehensive Environmental Product Declaration (EPD) developed together with One Click LCA, providing full transparency on the environmental impact of our products.",
+      "epdNumber": "EPD Number",
+      "declaredUnit": "Declared Unit",
+      "declaredUnitValue": "1 m² of Thermal Absorber (2.48 kg)",
+      "gwp": "GWP-fossil, A1-A3",
+      "gwpValue": "21.14 kg CO₂e per m²",
+      "product": "Retrofit Thermal Absorber",
+      "co2Footprint": "CO₂ Footprint",
+      "published": "Published",
+      "validUntil": "Valid Until",
+      "standard": "Standard",
+      "createdWith": "Created With"
+    },
+    "pillar": {
+      "label": "Complete Energy Terrace System",
+      "title": "+Energy Terrace with Adjustable Pedestals",
+      "description": "A complete turnkey solution combining solar thermal absorbers with world-leading pedestal technology for public and commercial energy-generating terraces.",
+      "absorberTitle": "Solar Absorber Technology",
+      "absorberDescription": "Stainless steel pipes bonded to the underside of each stone paver capture solar energy and transfer it to your building's heating system via a glycol-water circuit.",
+      "stoneSurface": "Natural Stone / Concrete Paver",
+      "toHeatPump": "↓ To Heat Pump System ↓",
+      "stainlessSteel": "Stainless Steel",
+      "stainlessSteelDesc": "316L grade pipes for maximum durability and corrosion resistance",
+      "thermalBond": "Thermal Bond",
+      "thermalBondDesc": "Pipes thermally bonded to stone for optimal heat transfer",
+      "glycolCircuit": "Glycol Circuit",
+      "glycolCircuitDesc": "Frost-protected fluid transfers heat year-round",
+      "heroTitle": "Commercial Energy-Generating Terraces",
+      "heroDescription": "Create perfectly level, high-traffic outdoor spaces that generate renewable thermal energy for building heating, cooling, and hot water systems.",
+      "projects": {
+        "plazas": {
+          "title": "Energy-Generating Plazas",
+          "description": "High-traffic public spaces with hidden solar thermal collectors beneath stone pavers."
+        },
+        "hotel": {
+          "title": "Hotel & Resort Terraces",
+          "description": "Premium rooftop terraces generating heat for pool heating and hot water systems."
+        },
+        "corporate": {
+          "title": "Corporate Energy Terraces",
+          "description": "Office building terraces providing renewable energy for building heating systems."
+        }
+      },
+      "pbSeries": {
+        "title": "PB Series for Energy Terraces",
+        "description": "The most versatile pedestal range with heights from 18mm to 955mm. Creates the service void needed for solar absorber pipe routing and heat pump connections."
+      },
+      "bcSeries": {
+        "title": "BC Series",
+        "subtitle": "360° Multi-Angle Tabs",
+        "description": "For irregular-shaped pavers"
+      },
+      "uBrs": {
+        "title": "U-BRS",
+        "subtitle": "Aluminum Joist System",
+        "description": "For decking & large tiles"
+      },
+      "features": {
+        "absorber": {
+          "title": "Solar Absorber Integration",
+          "description": "Stainless steel absorber pipes beneath the stone surface capture solar energy and transfer heat to the building."
+        },
+        "peakOutput": {
+          "title": "1,400 W/m² Peak Output",
+          "description": "High-performance thermal collectors deliver exceptional energy yields for heating and hot water."
+        },
+        "adjustable": {
+          "title": "Adjustable Height 18-955mm",
+          "description": "PB Series pedestals offer precision height adjustment for perfectly level surfaces over sloped substrates."
+        },
+        "slope": {
+          "title": "5% Slope Correction",
+          "description": "Integrated slope correctors maintain level walking surfaces regardless of substrate pitch."
+        },
+        "fireRated": {
+          "title": "A1 Fire-Rated Option",
+          "description": "A-PED aluminum pedestals are non-combustible, ideal for high-rise commercial buildings."
+        },
+        "cradle": {
+          "title": "Cradle to Cradle Bronze",
+          "description": "100% recyclable materials contributing to LEED and BREEAM sustainability certifications."
+        }
+      },
+      "integration": {
+        "title": "Complete Energy Terrace Solution",
+        "description": "Adjustable pedestals combined with Copa Solar absorbers create a fully integrated system for commercial energy-generating terraces.",
+        "annual": "kWh/m² Annual",
+        "annualDesc": "Energy production from each square meter of terrace surface.",
+        "heightRange": "Height Range",
+        "heightRangeDesc": "Industry-leading adjustment range for any substrate condition.",
+        "loadCapacity": "Load Capacity",
+        "loadCapacityDesc": "Per pedestal, designed for commercial traffic and heavy stone.",
+        "lifespan": "Year Lifespan",
+        "lifespanDesc": "Full warranty on absorber performance and pedestal durability."
+      },
+      "trusted": "Trusted by world-class projects"
+    },
+    "caseStudy": {
+      "label": "Case Study",
+      "title": "+Energy Terrace – Commercial Project",
+      "description": "Real estate owner with low carbon footprint ambitions, reducing from 4.7 kg CO₂ eq/m² to 3.45 kg while replacing 80% of hot water from district heating with +Energy Terrace.",
+      "projectSetup": {
+        "title": "Project Setup",
+        "items": [
+          "Copa Solar absorber combined with terrace stone (low CO₂ eq products with EPD)",
+          "500 m² +Energy Terrace (100% coverage)",
+          "Total thermal power: 0.70 MWp",
+          "Estimated annual energy production: 740 MWh thermal",
+          "Connected to district heating through 2.5 m³ accumulator tank"
+        ]
+      },
+      "customerBackground": {
+        "title": "Customer Background",
+        "items": [
+          "Low CO₂ footprint concept buildings",
+          "Target: Reduce from 4.7 kg CO₂ eq/m² (2023) to 3.45 kg (2026)",
+          "Replace 80% of hot water from district heating",
+          "Saving €0.09/kWh on district heating cost"
+        ]
+      },
+      "metrics": {
+        "roi": "Years ROI",
+        "capex": "Capex (+Energy Terrace)",
+        "savings": "25 Year Savings",
+        "co2": "Tonnes CO₂ Reduction/Year",
+        "yearlySavings": "Yearly Savings",
+        "cooling": "By-proxy Cooling per Year",
+        "opex": "Annual Opex"
+      }
+    },
+    "contact": {
+      "label": "Get In Touch",
+      "title": "Contact Copa Solar",
+      "description": "Ready to transform your property with sustainable energy solutions? Contact us for a consultation and custom project assessment.",
+      "companyName": "Copa Solar AB",
+      "companyDescription": "We balance and decarbonize your energy systems. Founded in 2022, we specialize in the design of optimized thermal absorbers with German contract manufacturing.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website",
+      "certifications": "Certifications & Standards",
+      "iso9001": "ISO 9001 Certified",
+      "iso14001": "ISO 14001 (Started)",
+      "epdCert": "Environmental Product Declaration (EPD)",
+      "germanManufacturing": "German Contract Manufacturing",
+      "yearWarranty": "25 Year Product Warranty"
+    }
   }
 }

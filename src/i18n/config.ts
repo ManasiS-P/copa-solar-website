@@ -5,14 +5,27 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import en from "./locales/en.json";
 import es from "./locales/es.json";
 
+export const languages = [
+  { code: "en", name: "English", flag: "🇬🇧" },
+  { code: "es", name: "Español", flag: "🇪🇸" },
+];
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
-      en: { translation: en },
-      es: { translation: es },
+      en: { 
+        translation: en,
+        terrace: en.terrace
+      },
+      es: { 
+        translation: es,
+        terrace: es.terrace
+      },
     },
+    ns: ["translation", "terrace"],
+    defaultNS: "translation",
     fallbackLng: "en",
     interpolation: {
       escapeValue: false,

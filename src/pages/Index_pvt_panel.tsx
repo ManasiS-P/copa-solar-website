@@ -1,24 +1,29 @@
-import HeroSection_PVT from "@/components/HeroSection_PVT";
-import IntroSection from "@/components/IntroSection";
-import FunctionSection from "@/components/FunctionSection";
-import PVTBoreholeChart from "@/components/PVTBoreholeChart";
-import CaseStudySection from "@/components/CaseStudySection";
-import EPDSection_PVT_Panel from "@/components/EPDSection_PVT_Panel";
-import CompanySection from "@/components/CompanySection";
-import ContactSection from "@/components/ContactSection";
+import HeroSection from "@/components/pvt_panels/HeroSection";
+import IntroSection from "@/components/pvt_panels/IntroSection";
+import FunctionSection from "@/components/pvt_panels/FunctionSection";
+import PVTBoreholeChart from "@/components/pvt_panels/PVTBoreholeChart";
+import CaseStudySection from "@/components/pvt_panels/CaseStudySection";
+import EPDSection_PVT_Panel from "@/components/pvt_panels/EPDSection";
+import CompanySection from "@/components/pvt_panels/CompanySection";
+import ContactSection from "@/components/pvt_panels/ContactSection";
+import { Footer } from "@/components/Footer";
+import "@/styles/pvt.css";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
-      <HeroSection_PVT />
-      <IntroSection />
-      <FunctionSection />
-      <PVTBoreholeChart />
-      <CaseStudySection />
-      <EPDSection_PVT_Panel />
-      <CompanySection />
-      <ContactSection />
-    </main>
+    <>
+      <main className="pvt-theme min-h-screen">
+        <HeroSection />
+        <IntroSection />
+        <FunctionSection />
+        <PVTBoreholeChart />
+        <CaseStudySection />
+        <EPDSection_PVT_Panel />
+        <CompanySection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </>
   );
 };
 

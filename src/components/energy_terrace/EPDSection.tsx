@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { FileCheck, Scale, Leaf } from "lucide-react";
 
 const EPDSection = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("terrace");
 
   return (
     <section className="section-padding bg-secondary">
@@ -16,11 +16,11 @@ const EPDSection = () => {
                 {t("epd.label")}
               </span>
             </div>
-            
+
             <h2 className="font-display text-3xl md:text-4xl text-foreground font-semibold mb-6">
               {t("epd.title")}
             </h2>
-            
+
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
               {t("epd.description")}
             </p>
@@ -31,28 +31,38 @@ const EPDSection = () => {
                   <FileCheck className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">{t("epd.epdNumber")}</div>
+                  <div className="font-semibold text-foreground">
+                    {t("epd.epdNumber")}
+                  </div>
                   <div className="text-muted-foreground">HUB-1392</div>
                 </div>
               </div>
-              
+
               <div className="flex items-center gap-4 p-4 bg-card rounded-lg border border-border/50">
                 <div className="feature-icon">
                   <Scale className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">{t("epd.declaredUnit")}</div>
-                  <div className="text-muted-foreground">{t("epd.declaredUnitValue")}</div>
+                  <div className="font-semibold text-foreground">
+                    {t("epd.declaredUnit")}
+                  </div>
+                  <div className="text-muted-foreground">
+                    {t("epd.declaredUnitValue")}
+                  </div>
                 </div>
               </div>
-              
+
               <div className="flex items-center gap-4 p-4 bg-card rounded-lg border border-border/50">
                 <div className="feature-icon">
                   <Leaf className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">{t("epd.gwp")}</div>
-                  <div className="text-muted-foreground">{t("epd.gwpValue")}</div>
+                  <div className="font-semibold text-foreground">
+                    {t("epd.gwp")}
+                  </div>
+                  <div className="text-muted-foreground">
+                    {t("epd.gwpValue")}
+                  </div>
                 </div>
               </div>
             </div>
@@ -72,28 +82,44 @@ const EPDSection = () => {
 
             <div className="bg-secondary rounded-xl p-6 mb-6">
               <div className="text-center">
-                <div className="text-sm text-muted-foreground mb-1">{t("epd.co2Footprint")}</div>
-                <div className="text-4xl font-bold text-foreground mb-1">21.14</div>
+                <div className="text-sm text-muted-foreground mb-1">
+                  {t("epd.co2Footprint")}
+                </div>
+                <div className="text-4xl font-bold text-foreground mb-1">
+                  21.14
+                </div>
                 <div className="text-muted-foreground">kg CO₂e per m²</div>
               </div>
             </div>
 
             <div className="space-y-3 text-sm">
               <div className="flex justify-between py-2 border-b border-border/50">
-                <span className="text-muted-foreground">{t("epd.published")}</span>
+                <span className="text-muted-foreground">
+                  {t("epd.published")}
+                </span>
                 <span className="text-foreground font-medium">2024-05-17</span>
               </div>
               <div className="flex justify-between py-2 border-b border-border/50">
-                <span className="text-muted-foreground">{t("epd.validUntil")}</span>
+                <span className="text-muted-foreground">
+                  {t("epd.validUntil")}
+                </span>
                 <span className="text-foreground font-medium">2029-05-17</span>
               </div>
               <div className="flex justify-between py-2 border-b border-border/50">
-                <span className="text-muted-foreground">{t("epd.standard")}</span>
-                <span className="text-foreground font-medium">EN 15804+A2 & ISO 14025</span>
+                <span className="text-muted-foreground">
+                  {t("epd.standard")}
+                </span>
+                <span className="text-foreground font-medium">
+                  EN 15804+A2 & ISO 14025
+                </span>
               </div>
               <div className="flex justify-between py-2">
-                <span className="text-muted-foreground">{t("epd.createdWith")}</span>
-                <span className="text-foreground font-medium">One Click LCA</span>
+                <span className="text-muted-foreground">
+                  {t("epd.createdWith")}
+                </span>
+                <span className="text-foreground font-medium">
+                  One Click LCA
+                </span>
               </div>
             </div>
 

@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Youtube } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import copaLogo from "@/assets/copa-solar-logo.png";
@@ -8,10 +8,22 @@ export const Footer = () => {
 
   const footerLinks = {
     products: [
-      { name: "+Energy Facade", href: "/products", isRoute: true },
-      { name: "PVT Panels", href: "/products", isRoute: true },
+      {
+        name: "+Energy Facade",
+        href: "/products/energy-facade",
+        isRoute: true,
+      },
+      {
+        name: "PVT Panels",
+        href: "/products/pvt-panels",
+        isRoute: true,
+      },
       { name: "RePvWer", href: "/products", isRoute: true },
-      { name: "+Energy Terrace", href: "/products", isRoute: true },
+      {
+        name: "+Energy Terrace",
+        href: "/products/energy-terrace",
+        isRoute: true,
+      },
     ],
     company: [
       { name: t("footer.links.aboutUs"), href: "/#about" },
@@ -27,7 +39,11 @@ export const Footer = () => {
       },
       { name: t("footer.links.downloads"), href: "#" },
       { name: t("footer.links.epdCertifications"), href: "#epd" },
-      { name: t("footer.links.partnerPortal"), href: "#" },
+      {
+        name: t("footer.links.partnerPortal"),
+        href: "/partner-with-us",
+        isRoute: true,
+      },
     ],
   };
 
@@ -47,16 +63,24 @@ export const Footer = () => {
             <p className="text-primary-foreground/70 leading-relaxed mb-6 max-w-sm">
               {t("footer.description")}
             </p>
-            <div className="flex gap-4">
-              {[Linkedin, Twitter, Youtube].map((Icon, index) => (
-                <a
-                  key={index}
-                  href="#"
-                  className="w-10 h-10 bg-primary-foreground/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors duration-300"
-                >
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.linkedin.com/company/copa-solar-ab/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our LinkedIn page"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors duration-300"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/copa-solar-ab/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
+                Visit our LinkedIn page
+              </a>
             </div>
           </div>
 

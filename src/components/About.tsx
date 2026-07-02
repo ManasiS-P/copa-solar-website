@@ -35,7 +35,11 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="py-8 bg-card" ref={ref}>
+    <section
+      id="about"
+      className="py-8 bg-card scroll-mt-24 md:scroll-mt-28"
+      ref={ref}
+    >
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-6 items-center">
           {/* Content */}

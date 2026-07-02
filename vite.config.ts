@@ -5,6 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? "/copa-solar-website/" : "/",
   server: {
     host: "::",
     port: 8080,
@@ -13,7 +14,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
-  base: "/copa-solar-website/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

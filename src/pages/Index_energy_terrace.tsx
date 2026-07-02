@@ -1,16 +1,17 @@
-import { Header } from "@/components/Header";
-import Hero from "@/components/sections/Hero";
-import Introduction from "@/components/sections/Introduction";
-import TechnicalSpecs from "@/components/sections/TechnicalSpecs";
-import PillarSolution from "@/components/sections/PillarSolution";
-import Applications from "@/components/sections/Applications";
-import CaseStudy from "@/components/sections/CaseStudy";
-import EPDSection from "@/components/sections/EPDSection";
-import Contact from "@/components/sections/Contact";
+import Header from "@/components/energy_terrace/Header";
+import Hero from "@/components/energy_terrace/Hero";
+import Introduction from "@/components/energy_terrace/Introduction";
+import TechnicalSpecs from "@/components/energy_terrace/TechnicalSpecs";
+import PillarSolution from "@/components/energy_terrace/PillarSolution";
+import Applications from "@/components/energy_terrace/Applications";
+import CaseStudy from "@/components/energy_terrace/CaseStudy";
+import EPDSection from "@/components/energy_terrace/EPDSection";
+import Contact from "@/components/energy_terrace/Contact";
+import "@/styles/terrace.css";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="terrace-theme min-h-screen bg-background">
       <Header />
       <main>
         <Hero />
@@ -33,5 +34,4 @@ const Index = () => {
     </div>
   );
 };
-
 export default Index;

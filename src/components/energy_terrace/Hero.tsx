@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/hero-terrace.png";
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("terrace");
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 md:pb-24">
@@ -26,11 +26,11 @@ const Hero = () => {
               {t("hero.company")}
             </span>
           </div>
-          
+
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-primary-foreground font-semibold leading-tight mb-6">
             {t("hero.title")}
           </h1>
-          
+
           <p className="text-lg md:text-xl text-primary-foreground/85 leading-relaxed max-w-2xl mb-8">
             {t("hero.description")}
           </p>
@@ -38,15 +38,21 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4">
             <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-lg px-5 py-3">
               <span className="text-accent font-semibold text-xl">1,400</span>
-              <span className="text-primary-foreground/70 text-sm ml-2">{t("hero.peakPower")}</span>
+              <span className="text-primary-foreground/70 text-sm ml-2">
+                {t("hero.peakPower")}
+              </span>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-lg px-5 py-3">
               <span className="text-accent font-semibold text-xl">100%</span>
-              <span className="text-primary-foreground/70 text-sm ml-2">{t("hero.fossilFree")}</span>
+              <span className="text-primary-foreground/70 text-sm ml-2">
+                {t("hero.fossilFree")}
+              </span>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-lg px-5 py-3">
               <span className="text-accent font-semibold text-xl">25</span>
-              <span className="text-primary-foreground/70 text-sm ml-2">{t("hero.warranty")}</span>
+              <span className="text-primary-foreground/70 text-sm ml-2">
+                {t("hero.warranty")}
+              </span>
             </div>
           </div>
         </div>

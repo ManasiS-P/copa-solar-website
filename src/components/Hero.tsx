@@ -55,7 +55,7 @@ export const Hero = () => {
             </p>
 
             <div className="mb-6">
-              <Button asChild variant="hero-outline">
+              <Button asChild>
                 <Link to="/partner-with-us">{t("hero.partnerWithUs")}</Link>
               </Button>
             </div>

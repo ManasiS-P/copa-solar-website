@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap');
+
+/* Copa Solar PVT Sales Folder Design System
+  Inspired by Energy Facade document - clean, elegant, professional
+  All colors MUST be HSL */
+
+.pvt-theme {
+  /* Copa Solar Brand Palette - Dark Teal/Navy Professional */
+  --background: 0 0% 100%;
+  --foreground: 200 25% 15%;
+
+  --card: 0 0% 98%;
+  --card-foreground: 200 25% 15%;
+
+  --popover: 0 0% 98%;
+  --popover-foreground: 200 25% 15%;
+
+  /* Primary: Copa Solar Teal/Dark Blue */
+  --primary: 195 70% 25%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary: Light teal */
+  --secondary: 190 30% 90%;
+  --secondary-foreground: 200 25% 15%;
+
+  /* Muted: Soft gray-blue */
+  --muted: 200 15% 94%;
+  --muted-foreground: 200 15% 45%;
+
+  /* Accent: Bright cyan accent */
+  --accent: 185 80% 45%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 200 20% 88%;
+  --input: 200 20% 88%;
+  --ring: 195 70% 25%;
+
+  --radius: 0.375rem;
+
+  /* Custom Copa Solar tokens */
+  --copa-teal: 195 70% 25%;
+  --copa-teal-light: 190 60% 35%;
+  --copa-navy: 210 45% 18%;
+  --copa-cyan: 185 80% 45%;
+  --copa-gray: 200 15% 94%;
+  --copa-dark: 200 25% 15%;
+  --copa-white: 0 0% 100%;
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, hsl(195 70% 25%) 0%, hsl(210 45% 18%) 100%);
+  --gradient-accent: linear-gradient(135deg, hsl(185 80% 45%) 0%, hsl(195 70% 35%) 100%);
+  --gradient-light: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(200 15% 96%) 100%);
+
+  /* Shadows */
+  --shadow-soft: 0 4px 20px -4px hsl(200 25% 15% / 0.1);
+  --shadow-card: 0 8px 32px -8px hsl(200 25% 15% / 0.15);
+  --shadow-elevated: 0 16px 48px -16px hsl(200 25% 15% / 0.2);
+
+  --sidebar-background: 0 0% 100%;
+  --sidebar-foreground: 200 25% 15%;
+  --sidebar-primary: 195 70% 25%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 190 30% 90%;
+  --sidebar-accent-foreground: 200 25% 15%;
+  --sidebar-border: 200 20% 88%;
+  --sidebar-ring: 195 70% 25%;
+
+  @apply bg-background text-foreground antialiased;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.pvt-theme.dark {
+  --background: 210 45% 12%;
+  --foreground: 0 0% 98%;
+
+  --card: 210 40% 15%;
+  --card-foreground: 0 0% 98%;
+
+  --popover: 210 40% 15%;
+  --popover-foreground: 0 0% 98%;
+
+  --primary: 185 80% 50%;
+  --primary-foreground: 210 45% 12%;
+
+  --secondary: 210 30% 22%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 210 25% 20%;
+  --muted-foreground: 200 15% 65%;
+
+  --accent: 185 80% 45%;
+  --accent-foreground: 210 45% 12%;
+
+  --destructive: 0 62% 45%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 210 25% 22%;
+  --input: 210 25% 22%;
+  --ring: 185 80% 50%;
+
+  --sidebar-background: 210 45% 10%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 185 80% 50%;
+  --sidebar-primary-foreground: 210 45% 12%;
+  --sidebar-accent: 210 30% 18%;
+  --sidebar-accent-foreground: 0 0% 98%;
+  --sidebar-border: 210 25% 22%;
+  --sidebar-ring: 185 80% 50%;
+}
+
+.pvt-theme * {
+  @apply border-border;
+}
+
+.pvt-theme {
+  scroll-behavior: smooth;
+}
+
+.pvt-theme .text-balance {
+  text-wrap: balance;
+}
+
+.pvt-theme .copa-gradient-hero {
+  background: var(--gradient-hero);
+}
+
+.pvt-theme .copa-gradient-accent {
+  background: var(--gradient-accent);
+}
+
+.pvt-theme .copa-gradient-light {
+  background: var(--gradient-light);
+}
+
+.pvt-theme .copa-shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+
+.pvt-theme .copa-shadow-card {
+  box-shadow: var(--shadow-card);
+}
+
+.pvt-theme .copa-shadow-elevated {
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Copa Solar brand typography */
+.pvt-theme .copa-heading {
+  @apply font-bold tracking-tight;
+}
+
+.pvt-theme .copa-subheading {
+  @apply font-medium text-muted-foreground;
+}

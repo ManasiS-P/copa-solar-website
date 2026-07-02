@@ -369,5 +369,303 @@
       "name": "Alianzas para lograr los objetivos",
       "impact": "A través de alianzas estratégicas con Cosentino, SFS, tesa® y distribuidores globales, aceleramos la acción colectiva hacia los objetivos climáticos."
     }
+  },
+  "nycCompliance": {
+    "label": "Cumplimiento de edificios NYC",
+    "title": "Soluciones para propietarios de edificios en Nueva York",
+    "description": "Nueva York tiene las regulaciones de construcción más exigentes de Estados Unidos. La +Energy Façade de Copa Solar es la única solución que aborda la seguridad de fachadas, la reducción de emisiones y el cumplimiento del código energético en un solo sistema integrado.",
+    "problemTitle": "El triple desafío del propietario de edificios en NYC",
+    "problemDescription": "Los propietarios de edificios de Nueva York enfrentan una convergencia sin precedentes de regulaciones: fachadas envejecidas que desencadenan costosas reparaciones LL11, límites agresivos de emisiones LL97 con sanciones anuales de $268/tonelada, y estrictos requisitos energéticos ASHRAE 90.1 para cualquier renovación. Los enfoques estándar abordan cada problema por separado, triplicando costos y plazos. Ninguna solución existente aborda los tres hasta ahora.",
+    "challenge": "El desafío",
+    "copaSolution": "La solución Copa Solar",
+    "ctaTitle": "Un sistema. Triple cumplimiento.",
+    "ctaDescription": "La +Energy Façade de Copa Solar es la única solución integrada en edificios que logra simultáneamente la clasificación LL11 Safe, cierra hasta el 60% de la brecha de emisiones LL97 y cumple con los requisitos energéticos de edificios ASHRAE 90.1-2019, transformando la carga regulatoria en valor de activo a largo plazo."
+  },
+  "terrace": {
+    "nav": {
+      "solutions": "Soluciones",
+      "specifications": "Especificaciones",
+      "caseStudy": "Caso de Estudio",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "company": "Copa Solar AB",
+      "title": "+Energy Terrace",
+      "description": "Sistema revolucionario de energía térmica que transforma las terrazas exteriores en productores de energía sostenible. Cosecha energía solar mientras extiendes tu temporada al aire libre con superficies calefactadas.",
+      "peakPower": "W/m² Potencia Máxima",
+      "fossilFree": "Libre de Fósiles",
+      "warranty": "Años de Garantía"
+    },
+    "introduction": {
+      "label": "Innovación Sostenible",
+      "title": "Soluciones Energéticas Sostenibles con",
+      "titleHighlight": "+Energy Terrace",
+      "description": "Nuestros sistemas de energía verde integrados combinan energía solar, bombas de calor y almacenamiento geotérmico para ofrecer calefacción, refrigeración y ventilación sostenibles con máxima eficiencia. +Energy Terrace es una solución revolucionaria que genera energía térmica mientras proporciona superficies exteriores calefactadas para confort durante todo el año.",
+      "description2": "Completamente silencioso y capaz de producir energía incluso sin condiciones de luz solar directa, asegura un suministro de energía continuo y optimizado. Esto no solo optimiza el rendimiento energético y la sostenibilidad, sino que también aumenta el valor de la propiedad y apoya certificaciones como BREEAM, LEED y DGNB.",
+      "features": {
+        "dualEnergy": {
+          "title": "Doble Cosecha de Energía",
+          "description": "Captura energía térmica solar mientras proporciona superficies exteriores calefactadas y cómodas"
+        },
+        "extendedSeason": {
+          "title": "Temporada Extendida",
+          "description": "Disfruta de tu terraza todo el año con calefacción integrada de fuentes renovables"
+        },
+        "sustainable": {
+          "title": "100% Sostenible",
+          "description": "Cero emisiones de CO₂ con materiales totalmente reciclables y EPD y LCA aprobados"
+        },
+        "silent": {
+          "title": "Operación Silenciosa",
+          "description": "Sin partes móviles asegura producción de energía completamente silenciosa"
+        }
+      }
+    },
+    "applications": {
+      "label": "Aplicaciones",
+      "title": "Soluciones Versátiles",
+      "description": "La energía de +Energy Terrace puede usarse en aplicaciones geotérmicas como calefacción, refrigeración y balanceo en varios tipos de propiedades.",
+      "types": {
+        "residential": {
+          "title": "Residencial",
+          "description": "Terrazas privadas y espacios de vida al aire libre"
+        },
+        "commercial": {
+          "title": "Inmuebles Comerciales",
+          "description": "Edificios de oficinas y desarrollos de uso mixto"
+        },
+        "hospitality": {
+          "title": "Hostelería",
+          "description": "Hoteles, restaurantes y áreas de comedor al aire libre"
+        },
+        "community": {
+          "title": "Edificios Comunitarios",
+          "description": "Espacios públicos e instalaciones municipales"
+        },
+        "parking": {
+          "title": "Áreas de Estacionamiento",
+          "description": "Estacionamientos cubiertos y zonas peatonales"
+        },
+        "district": {
+          "title": "Soluciones de Distrito",
+          "description": "Redes de calefacción y refrigeración"
+        }
+      },
+      "economy": {
+        "label": "Economía",
+        "title": "Reducción de Costos",
+        "description": "Ahorros operativos significativos a través de la reducción del consumo de energía y la eliminación de emisiones de CO₂.",
+        "hotWater": {
+          "title": "Agua Caliente",
+          "description": "Costo reducido para agua caliente doméstica"
+        },
+        "heating": {
+          "title": "Calefacción",
+          "description": "Gastos de calefacción reducidos"
+        },
+        "cooling": {
+          "title": "Refrigeración",
+          "description": "Costos de refrigeración reducidos"
+        },
+        "coolingDemand": {
+          "title": "Demanda de Refrigeración",
+          "description": "Necesidad reducida de refrigeración activa"
+        }
+      }
+    },
+    "specs": {
+      "label": "Especificaciones Técnicas",
+      "title": "Rendimiento y Datos",
+      "description": "Especificaciones líderes en la industria respaldadas por Declaración Ambiental de Producto (EPD) y certificaciones de Análisis de Ciclo de Vida (LCA).",
+      "thermalPower": {
+        "label": "Potencia Térmica Máxima Instalada",
+        "description": "Salida térmica máxima en condiciones óptimas"
+      },
+      "radiativeCooling": {
+        "label": "Enfriamiento Radiativo",
+        "description": "Capacidad de enfriamiento pasivo"
+      },
+      "annualProduction": {
+        "label": "Producción Anual de Energía",
+        "description": "Producción estimada en clima de Estocolmo"
+      },
+      "warranty": {
+        "label": "Garantía del Producto",
+        "description": "Garantía de rendimiento completo"
+      },
+      "recyclable": {
+        "label": "Materiales Reciclables",
+        "description": "Sin metales de tierras raras utilizados"
+      },
+      "produced": {
+        "label": "Producido en Europa",
+        "description": "Fabricación por contrato alemán"
+      },
+      "absorber": {
+        "title": "Núcleo del Absorbedor Solar",
+        "description": "Tubos de acero inoxidable unidos a la parte inferior de cada baldosa de piedra forman el corazón del sistema +Energy Terrace. La radiación solar calienta la superficie de piedra, y esta energía térmica se transfiere a través de los tubos a la bomba de calor del edificio.",
+        "badge": "Absorbedor de Acero Inoxidable 316L",
+        "features": [
+          "100% Energía Libre de Fósiles",
+          "Calefacción, Refrigeración y Agua Caliente",
+          "Sin Partes Móviles",
+          "Producción de Energía Silenciosa",
+          "EPD y LCA Aprobados",
+          "Sin Metales de Tierras Raras",
+          "Libre de Mantenimiento",
+          "Certificado ISO 9001"
+        ]
+      }
+    },
+    "epd": {
+      "label": "Impacto Ambiental",
+      "title": "Declaración Ambiental de Producto",
+      "description": "Nuestro compromiso con la sostenibilidad está verificado a través de una Declaración Ambiental de Producto (EPD) integral desarrollada junto con One Click LCA, proporcionando total transparencia sobre el impacto ambiental de nuestros productos.",
+      "epdNumber": "Número EPD",
+      "declaredUnit": "Unidad Declarada",
+      "declaredUnitValue": "1 m² de Absorbedor Térmico (2,48 kg)",
+      "gwp": "GWP-fósil, A1-A3",
+      "gwpValue": "21,14 kg CO₂e por m²",
+      "product": "Absorbedor Térmico de Retrofit",
+      "co2Footprint": "Huella de CO₂",
+      "published": "Publicado",
+      "validUntil": "Válido Hasta",
+      "standard": "Estándar",
+      "createdWith": "Creado Con"
+    },
+    "pillar": {
+      "label": "Sistema Completo de Terraza Energética",
+      "title": "+Energy Terrace con Pedestales Ajustables",
+      "description": "Una solución llave en mano completa que combina absorbedores térmicos solares con tecnología de pedestales líder mundial para terrazas generadoras de energía públicas y comerciales.",
+      "absorberTitle": "Tecnología de Absorbedor Solar",
+      "absorberDescription": "Tubos de acero inoxidable unidos a la parte inferior de cada baldosa de piedra capturan la energía solar y la transfieren al sistema de calefacción del edificio a través de un circuito de agua-glicol.",
+      "stoneSurface": "Piedra Natural / Baldosa de Hormigón",
+      "toHeatPump": "↓ Al Sistema de Bomba de Calor ↓",
+      "stainlessSteel": "Acero Inoxidable",
+      "stainlessSteelDesc": "Tubos de grado 316L para máxima durabilidad y resistencia a la corrosión",
+      "thermalBond": "Unión Térmica",
+      "thermalBondDesc": "Tubos térmicamente unidos a la piedra para una transferencia de calor óptima",
+      "glycolCircuit": "Circuito de Glicol",
+      "glycolCircuitDesc": "Fluido protegido contra heladas transfiere calor todo el año",
+      "heroTitle": "Terrazas Comerciales Generadoras de Energía",
+      "heroDescription": "Crea espacios exteriores perfectamente nivelados y de alto tráfico que generan energía térmica renovable para sistemas de calefacción, refrigeración y agua caliente.",
+      "projects": {
+        "plazas": {
+          "title": "Plazas Generadoras de Energía",
+          "description": "Espacios públicos de alto tráfico con colectores térmicos solares ocultos bajo baldosas de piedra."
+        },
+        "hotel": {
+          "title": "Terrazas de Hoteles y Resorts",
+          "description": "Terrazas en azoteas premium que generan calor para calentamiento de piscinas y sistemas de agua caliente."
+        },
+        "corporate": {
+          "title": "Terrazas Corporativas de Energía",
+          "description": "Terrazas de edificios de oficinas que proporcionan energía renovable para sistemas de calefacción."
+        }
+      },
+      "pbSeries": {
+        "title": "Serie PB para Terrazas Energéticas",
+        "description": "La gama de pedestales más versátil con alturas de 18mm a 955mm. Crea el vacío de servicio necesario para el enrutamiento de tuberías del absorbedor solar y conexiones de bomba de calor."
+      },
+      "bcSeries": {
+        "title": "Serie BC",
+        "subtitle": "Pestañas Multi-Ángulo 360°",
+        "description": "Para baldosas de formas irregulares"
+      },
+      "uBrs": {
+        "title": "U-BRS",
+        "subtitle": "Sistema de Vigas de Aluminio",
+        "description": "Para tarimas y baldosas grandes"
+      },
+      "features": {
+        "absorber": {
+          "title": "Integración de Absorbedor Solar",
+          "description": "Tubos de absorbedor de acero inoxidable bajo la superficie de piedra capturan energía solar y transfieren calor al edificio."
+        },
+        "peakOutput": {
+          "title": "1.400 W/m² Salida Máxima",
+          "description": "Colectores térmicos de alto rendimiento ofrecen rendimientos energéticos excepcionales para calefacción y agua caliente."
+        },
+        "adjustable": {
+          "title": "Altura Ajustable 18-955mm",
+          "description": "Los pedestales de la Serie PB ofrecen ajuste de altura de precisión para superficies perfectamente niveladas sobre sustratos inclinados."
+        },
+        "slope": {
+          "title": "Corrección de Pendiente del 5%",
+          "description": "Los correctores de pendiente integrados mantienen superficies de camino niveladas independientemente de la inclinación del sustrato."
+        },
+        "fireRated": {
+          "title": "Opción Resistente al Fuego A1",
+          "description": "Los pedestales de aluminio A-PED son incombustibles, ideales para edificios comerciales de gran altura."
+        },
+        "cradle": {
+          "title": "Cradle to Cradle Bronce",
+          "description": "Materiales 100% reciclables que contribuyen a las certificaciones de sostenibilidad LEED y BREEAM."
+        }
+      },
+      "integration": {
+        "title": "Solución Completa de Terraza Energética",
+        "description": "Pedestales ajustables combinados con absorbedores Copa Solar crean un sistema totalmente integrado para terrazas comerciales generadoras de energía.",
+        "annual": "kWh/m² Anual",
+        "annualDesc": "Producción de energía de cada metro cuadrado de superficie de terraza.",
+        "heightRange": "Rango de Altura",
+        "heightRangeDesc": "Rango de ajuste líder en la industria para cualquier condición de sustrato.",
+        "loadCapacity": "Capacidad de Carga",
+        "loadCapacityDesc": "Por pedestal, diseñado para tráfico comercial y piedra pesada.",
+        "lifespan": "Años de Vida Útil",
+        "lifespanDesc": "Garantía completa sobre el rendimiento del absorbedor y la durabilidad del pedestal."
+      },
+      "trusted": "Confianza de proyectos de clase mundial"
+    },
+    "caseStudy": {
+      "label": "Caso de Estudio",
+      "title": "+Energy Terrace – Proyecto Comercial",
+      "description": "Propietario inmobiliario con ambiciones de baja huella de carbono, reduciendo de 4,7 kg CO₂ eq/m² a 3,45 kg mientras reemplaza el 80% del agua caliente de la calefacción urbana con +Energy Terrace.",
+      "projectSetup": {
+        "title": "Configuración del Proyecto",
+        "items": [
+          "Absorbedor Copa Solar combinado con piedra de terraza (productos de bajo CO₂ eq con EPD)",
+          "500 m² +Energy Terrace (100% cobertura)",
+          "Potencia térmica total: 0,70 MWp",
+          "Producción anual de energía estimada: 740 MWh térmico",
+          "Conectado a calefacción urbana a través de tanque acumulador de 2,5 m³"
+        ]
+      },
+      "customerBackground": {
+        "title": "Antecedentes del Cliente",
+        "items": [
+          "Edificios concepto de baja huella de CO₂",
+          "Objetivo: Reducir de 4,7 kg CO₂ eq/m² (2023) a 3,45 kg (2026)",
+          "Reemplazar 80% del agua caliente de calefacción urbana",
+          "Ahorrando 0,09 €/kWh en costo de calefacción urbana"
+        ]
+      },
+      "metrics": {
+        "roi": "Años ROI",
+        "capex": "Capex (+Energy Terrace)",
+        "savings": "Ahorros a 25 Años",
+        "co2": "Toneladas Reducción CO₂/Año",
+        "yearlySavings": "Ahorros Anuales",
+        "cooling": "Enfriamiento Proxy por Año",
+        "opex": "Opex Anual"
+      }
+    },
+    "contact": {
+      "label": "Contáctenos",
+      "title": "Contactar Copa Solar",
+      "description": "¿Listo para transformar su propiedad con soluciones de energía sostenible? Contáctenos para una consulta y evaluación de proyecto personalizada.",
+      "companyName": "Copa Solar AB",
+      "companyDescription": "Equilibramos y descarbonizamos sus sistemas de energía. Fundada en 2022, nos especializamos en el diseño de absorbedores térmicos optimizados con fabricación por contrato alemán.",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico",
+      "website": "Sitio Web",
+      "certifications": "Certificaciones y Estándares",
+      "iso9001": "Certificado ISO 9001",
+      "iso14001": "ISO 14001 (Iniciado)",
+      "epdCert": "Declaración Ambiental de Producto (EPD)",
+      "germanManufacturing": "Fabricación por Contrato Alemán",
+      "yearWarranty": "25 Años de Garantía del Producto"
+    }
   }
 }

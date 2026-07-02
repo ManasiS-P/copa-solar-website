@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { MapPin, Phone, Mail, ArrowRight, Send, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Send, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -77,7 +77,7 @@ export const Contact = () => {
                       <h3 className="font-display font-semibold text-foreground mb-2">
                         {location.region}
                       </h3>
-                      {'company' in location && location.company && (
+                      {"company" in location && location.company && (
                         <p className="text-sm font-medium text-foreground mb-1">
                           {location.company}
                         </p>
@@ -97,7 +97,7 @@ export const Contact = () => {
                           {location.phone}
                         </a>
                       )}
-                      {'whatsapp' in location && location.whatsapp && (
+                      {"whatsapp" in location && location.whatsapp && (
                         <a
                           href={`https://wa.me/${location.whatsapp}`}
                           target="_blank"
@@ -120,11 +120,6 @@ export const Contact = () => {
                 </motion.div>
               ))}
             </div>
-
-            <Button variant="solar" className="group">
-              {t("contact.visitWebsite")}
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </Button>
           </motion.div>
 
           {/* Contact Form */}

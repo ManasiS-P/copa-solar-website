@@ -2,7 +2,6 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ManasiS-P.github.io/copa-solar-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +9,6 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "test": "vitest run",
     "test:watch": "vitest"
   },

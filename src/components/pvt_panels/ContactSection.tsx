@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import copaLogo from "@/assets/copa-logo-gray.png";
+import { Link } from "react-router-dom";
 
 const ContactSection = () => {
   return (
@@ -12,11 +13,13 @@ const ContactSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <img
-            src={copaLogo}
-            alt="Copa Solar"
-            className="h-16 md:h-20 w-auto mx-auto mb-8"
-          />
+          <Link to="/" className="inline-block mb-8">
+            <img
+              src={copaLogo}
+              alt="Copa Solar"
+              className="h-16 md:h-20 w-auto mx-auto"
+            />
+          </Link>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 copa-heading">
             Get in Touch
           </h2>
@@ -114,20 +117,6 @@ const ContactSection = () => {
             </ul>
           </motion.div>
         </div>
-
-        {/* Version footer */}
-        <motion.div
-          className="mt-16 text-center text-white/50 text-sm"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          <p>
-            VERSION 1.0 | PVT Panel Sales Folder | Copa Solar AB{" "}
-            {new Date().getFullYear()}
-          </p>
-        </motion.div>
       </div>
     </section>
   );

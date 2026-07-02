@@ -2,29 +2,29 @@ import { useTranslation } from "react-i18next";
 import { Sun, Thermometer, Leaf, Volume2 } from "lucide-react";
 
 const Introduction = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("terrace");
 
   const features = [
     {
       icon: Sun,
       title: t("introduction.features.dualEnergy.title"),
-      description: t("introduction.features.dualEnergy.description")
+      description: t("introduction.features.dualEnergy.description"),
     },
     {
       icon: Thermometer,
       title: t("introduction.features.extendedSeason.title"),
-      description: t("introduction.features.extendedSeason.description")
+      description: t("introduction.features.extendedSeason.description"),
     },
     {
       icon: Leaf,
       title: t("introduction.features.sustainable.title"),
-      description: t("introduction.features.sustainable.description")
+      description: t("introduction.features.sustainable.description"),
     },
     {
       icon: Volume2,
       title: t("introduction.features.silent.title"),
-      description: t("introduction.features.silent.description")
-    }
+      description: t("introduction.features.silent.description"),
+    },
   ];
 
   return (
@@ -39,12 +39,14 @@ const Introduction = () => {
                 {t("introduction.label")}
               </span>
             </div>
-            
+
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-foreground font-semibold leading-tight mb-6">
               {t("introduction.title")}{" "}
-              <span className="text-gradient-accent">{t("introduction.titleHighlight")}</span>
+              <span className="text-gradient-accent">
+                {t("introduction.titleHighlight")}
+              </span>
             </h2>
-            
+
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
               {t("introduction.description")}
             </p>
@@ -57,7 +59,7 @@ const Introduction = () => {
           {/* Right features grid */}
           <div className="grid sm:grid-cols-2 gap-6">
             {features.map((feature, index) => (
-              <div 
+              <div
                 key={index}
                 className="stat-card group hover:border-accent/30 transition-all duration-300"
                 style={{ animationDelay: `${index * 0.1}s` }}
@@ -65,8 +67,12 @@ const Introduction = () => {
                 <div className="feature-icon mb-4 group-hover:scale-110 transition-transform duration-300">
                   <feature.icon className="w-6 h-6" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">{feature.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{feature.description}</p>
+                <h3 className="font-semibold text-foreground mb-2">
+                  {feature.title}
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>

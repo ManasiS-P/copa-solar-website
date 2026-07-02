@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+/* +EnergyWall Design System - Premium Indoor Climate Solutions */
+
+.wall-theme {
+  --background: 220 20% 8%;
+  --foreground: 40 20% 95%;
+
+  --card: 220 18% 12%;
+  --card-foreground: 40 20% 95%;
+
+  --popover: 220 18% 12%;
+  --popover-foreground: 40 20% 95%;
+
+  --primary: 38 95% 55%;
+  --primary-foreground: 220 20% 8%;
+
+  --secondary: 220 15% 18%;
+  --secondary-foreground: 40 20% 90%;
+
+  --muted: 220 15% 15%;
+  --muted-foreground: 220 10% 55%;
+
+  --accent: 38 90% 50%;
+  --accent-foreground: 220 20% 8%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 220 15% 20%;
+  --input: 220 15% 20%;
+  --ring: 38 95% 55%;
+
+  --radius: 0.75rem;
+
+  /* Custom design tokens */
+  --warm-glow: 38 100% 60%;
+  --cool-slate: 220 20% 25%;
+  --stone-dark: 220 15% 10%;
+  --stone-light: 220 10% 35%;
+
+  /* Gradients */
+  --gradient-warm: linear-gradient(135deg, hsl(38 95% 55%), hsl(28 95% 45%));
+  --gradient-dark: linear-gradient(180deg, hsl(220 20% 8%), hsl(220 18% 12%));
+  --gradient-hero: linear-gradient(180deg, hsla(220 20% 8% / 0.3), hsla(220 20% 8% / 0.95));
+  --gradient-card: linear-gradient(180deg, hsl(220 18% 14%), hsl(220 18% 10%));
+
+  /* Shadows */
+  --shadow-warm: 0 0 60px -12px hsl(38 95% 55% / 0.3);
+  --shadow-lg: 0 25px 50px -12px hsl(220 20% 2% / 0.5);
+  --shadow-glow: 0 0 40px 0 hsl(38 95% 55% / 0.15);
+
+  --sidebar-background: 220 18% 10%;
+  --sidebar-foreground: 40 20% 90%;
+  --sidebar-primary: 38 95% 55%;
+  --sidebar-primary-foreground: 220 20% 8%;
+  --sidebar-accent: 220 15% 18%;
+  --sidebar-accent-foreground: 40 20% 90%;
+  --sidebar-border: 220 15% 20%;
+  --sidebar-ring: 38 95% 55%;
+
+  @apply bg-background text-foreground font-outfit antialiased;
+}
+
+.wall-theme.dark {
+  --background: 220 20% 8%;
+  --foreground: 40 20% 95%;
+  --card: 220 18% 12%;
+  --card-foreground: 40 20% 95%;
+  --popover: 220 18% 12%;
+  --popover-foreground: 40 20% 95%;
+  --primary: 38 95% 55%;
+  --primary-foreground: 220 20% 8%;
+  --secondary: 220 15% 18%;
+  --secondary-foreground: 40 20% 90%;
+  --muted: 220 15% 15%;
+  --muted-foreground: 220 10% 55%;
+  --accent: 38 90% 50%;
+  --accent-foreground: 220 20% 8%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 220 15% 20%;
+  --input: 220 15% 20%;
+  --ring: 38 95% 55%;
+  --sidebar-background: 220 18% 10%;
+  --sidebar-foreground: 40 20% 90%;
+  --sidebar-primary: 38 95% 55%;
+  --sidebar-primary-foreground: 220 20% 8%;
+  --sidebar-accent: 220 15% 18%;
+  --sidebar-accent-foreground: 40 20% 90%;
+  --sidebar-border: 220 15% 20%;
+  --sidebar-ring: 38 95% 55%;
+}
+
+.wall-theme * {
+  @apply border-border;
+}
+
+.wall-theme h1,
+.wall-theme h2,
+.wall-theme h3,
+.wall-theme h4,
+.wall-theme h5,
+.wall-theme h6 {
+  @apply font-playfair;
+}
+
+.wall-theme .text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+}
+
+.wall-theme .bg-gradient-warm {
+  background: var(--gradient-warm);
+}
+
+.wall-theme .bg-gradient-hero {
+  background: var(--gradient-hero);
+}
+
+.wall-theme .shadow-warm {
+  box-shadow: var(--shadow-warm);
+}
+
+.wall-theme .shadow-glow {
+  box-shadow: var(--shadow-glow);
+}
+
+.wall-theme .animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.wall-theme .animate-slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.wall-theme .animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}

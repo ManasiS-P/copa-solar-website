@@ -39,7 +39,11 @@ export const Header = () => {
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <img src={copaLogo} alt="Copa Solar" className="h-[72px] w-auto" />
+            <img
+              src={copaLogo}
+              alt="Copa Solar"
+              className="h-12 md:h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

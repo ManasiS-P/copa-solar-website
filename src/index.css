@@ -1,46 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
-    /* Copa Solar Brand Colors */
+    /* Copa Solar Brand Colors - BRIGHT MODE */
     --background: 45 20% 98%;
     --foreground: 220 15% 15%;
-
     --card: 45 25% 96%;
     --card-foreground: 220 15% 15%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
-
-    /* Primary - Warm Solar Orange */
     --primary: 35 95% 52%;
     --primary-foreground: 0 0% 100%;
-
-    /* Secondary - Sage Green for sustainability */
     --secondary: 145 20% 45%;
     --secondary-foreground: 0 0% 100%;
-
-    /* Muted - Soft warm gray */
     --muted: 45 15% 92%;
     --muted-foreground: 220 10% 45%;
-
-    /* Accent - Golden yellow */
     --accent: 45 90% 55%;
     --accent-foreground: 220 15% 15%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-
     --border: 45 15% 88%;
     --input: 45 15% 88%;
     --ring: 35 95% 52%;
-
     --radius: 0.75rem;
 
     /* Custom Copa Solar tokens */
@@ -56,7 +41,7 @@
     /* Gradients */
     --gradient-solar: linear-gradient(135deg, hsl(35 95% 52%) 0%, hsl(45 90% 55%) 100%);
     --gradient-hero: linear-gradient(180deg, hsl(45 20% 98%) 0%, hsl(45 25% 94%) 100%);
-    --gradient-dark: linear-gradient(180deg, hsl(220 15% 15%) 0%, hsl(220 10% 22%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(220 20% 10%) 0%, hsl(220 15% 15%) 100%);
 
     /* Shadows */
     --shadow-soft: 0 4px 20px -4px hsl(35 95% 52% / 0.15);
@@ -101,7 +86,7 @@
     --border: 220 15% 20%;
     --input: 220 15% 20%;
     --ring: 35 95% 52%;
-    
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -114,57 +99,19 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  body {
-    @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Outfit', system-ui, sans-serif;
-  }
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body { @apply bg-background text-foreground antialiased; font-family: 'Inter', system-ui, sans-serif; }
+  h1, h2, h3, h4, h5, h6 { font-family: 'Outfit', system-ui, sans-serif; }
 }
 
 @layer utilities {
-  .font-display {
-    font-family: 'Outfit', system-ui, sans-serif;
-  }
-
-  .text-gradient-solar {
-    background: var(--gradient-solar);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  .bg-gradient-solar {
-    background: var(--gradient-solar);
-  }
-
-  .bg-gradient-hero {
-    background: var(--gradient-hero);
-  }
-
-  .bg-gradient-dark {
-    background: var(--gradient-dark);
-  }
-
-  .shadow-soft {
-    box-shadow: var(--shadow-soft);
-  }
-
-  .shadow-card {
-    box-shadow: var(--shadow-card);
-  }
-
-  .shadow-elevated {
-    box-shadow: var(--shadow-elevated);
-  }
+  .font-display { font-family: 'Outfit', system-ui, sans-serif; }
+  .text-gradient-solar { background: var(--gradient-solar); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .bg-gradient-solar { background: var(--gradient-solar); }
+  .bg-gradient-dark { background: var(--gradient-dark); }
+  .bg-gradient-hero { background: var(--gradient-hero); }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-card { box-shadow: var(--shadow-card); }
+  .shadow-elevated { box-shadow: var(--shadow-elevated); }
 }
