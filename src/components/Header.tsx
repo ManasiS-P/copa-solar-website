@@ -10,9 +10,10 @@ export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { t } = useTranslation();
+  const aboutHref = `${import.meta.env.BASE_URL}#about`;
 
   const navLinks = [
-    { name: t("nav.about"), href: "/#about", isRoute: false },
+    { name: t("nav.about"), href: aboutHref, isRoute: false },
     { name: t("nav.products"), href: "/products", isRoute: true },
     { name: t("nav.benefits"), href: "/benefits", isRoute: true },
     { name: t("nav.partners"), href: "/partners", isRoute: true },
